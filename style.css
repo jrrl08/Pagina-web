@@ -1,0 +1,105 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+}
+
+a {
+  color: #4fa6d5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #45beff;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Roboto", sans-serif;
+}
+
+
+#header {
+  height: 130px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #68bae3;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header h1 {
+	text-align: center;
+	font-size: 28px;
+	margin: 0;
+	padding: 4px 0;
+	line-height: 1;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 120px;
+}
+
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.menu {
+  padding: 0;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.menu{
+  position: relative;
+}
+.menu a, .menu a:focus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: blue;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+
+
+.contact {
+	align-content: center;
+  padding-bottom: 30px;
+  color: #444;
+}
+
+.contact form{
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+h1 img{
+  padding: 1;
+  margin: 1;
+  max-height: 220px;
+
+}
+
+
+
+
